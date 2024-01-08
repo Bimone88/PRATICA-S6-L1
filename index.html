@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h1>Pratica con il Grid System</h1>
+          <h2>ESERCIZIO 1</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="blue-bg">
+            <p>Colonna 1</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blue-bg">
+            <p>Colonna 2</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blue-bg">
+            <p>Colonna 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-md-none">
+        <div class="col-4">
+          <div class="blue-bg">
+            <p>Colonna 1</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="blue-bg">
+            <p>Colonna 2</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="blue-bg">
+            <p>Colonna 3</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2>ESERCIZIO 2</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12">
+          <div class="yellow-bg">
+            <p>Colonna 1</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="yellow-bg">
+            <p>Colonna 2</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="yellow-bg">
+            <p>Colonna 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center"></div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2>ESERCIZIO 3</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h1>Pratica con il Grid System</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- Griglia per breakpoint -->
+        <div class="col-12">
+          <!-- Griglia mobile  -->
+          <div
+            class="d-flex justify-content-between align-items-center bg-success py-3"
+          >
+            <div>Elemento 1</div>
+            <div>Elemento 2</div>
+            <div>Elemento 3</div>
+          </div>
+        </div>
+        <!-- Griglie per breakpoint (incolonnate) -->
+        <div class="col-sm-4 d-sm-none bg-success py-3">
+          <div>Elemento 1</div>
+          <div>Elemento 2</div>
+          <div>Elemento 3</div>
+        </div>
+        <div class="col-md-4 d-md-none bg-success py-3">
+          <div>Elemento 1</div>
+          <div>Elemento 2</div>
+          <div>Elemento 3</div>
+        </div>
+        <div class="col-lg-4 d-lg-none bg-success py-3">
+          <div>Elemento 1</div>
+          <div>Elemento 2</div>
+          <div>Elemento 3</div>
+        </div>
+        <div class="col-xl-4 d-xl-none bg-success py-3">
+          <div>Elemento 1</div>
+          <div>Elemento 2</div>
+          <div>Elemento 3</div>
+        </div>
+        <div class="col-xxl-4 d-xxl-none bg-success py-3">
+          <div>Elemento 1</div>
+          <div>Elemento 2</div>
+          <div>Elemento 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2>ESERCIZIO 4</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 bg-danger text-white p-4">
+            <p>Colonna laterale sinistra</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6 bg-danger text-white p-4">
+                <p>Colonna centrale</p>
+              </div>
+              <div class="col-md-6 bg-danger text-white p-4">
+                <p>Colonna laterale destra</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2>ESERCIZIO 5</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center"></div>
+      </div>
+      <div class="row justify-content-center">
+        <!-- Colonna più grande su schermi desktop -->
+        <div class="col-md-8 bg-primary text-white py-3">
+          <div class="row">
+            <!-- Colonna annidata 1 -->
+            <div class="col-md-6 bg-success py-3">
+              <p>Colonna 1</p>
+            </div>
+            <!-- Colonna annidata 2 -->
+            <div class="col-md-6 bg-danger py-3">
+              <p>Colonna 2</p>
+            </div>
+          </div>
+        </div>
+        <!-- Colonna più piccola su schermi desktop -->
+        <div class="col-md-4 bg-warning text-white py-3">
+          <p>Colonna laterale</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
